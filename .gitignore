@@ -1,0 +1,72 @@
+#  Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+#  Virtual Environment
+venv/
+env/
+ENV/
+*.env
+.env
+.env.*
+
+#  Jupyter & Notebooks
+.ipynb_checkpoints/
+*.ipynb~
+
+#  VSCode, PyCharm
+.vscode/
+.idea/
+*.swp
+
+#  Data files
+data/raw/
+data/processed/
+data/external/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.zip
+*.tar.gz
+*.pkl
+*.h5
+*.npy
+
+#  Logs, outputs
+*.log
+*.out
+*.tmp
+*.bak
+logs/
+checkpoints/
+outputs/
+runs/
+mlruns/
+
+#  Models & Weights
+*.pt
+*.pth
+*.h5
+*.joblib
+*.onnx
+*.pb
+model_zoo/pretrain/
+
+#  Docker
+*.pid
+*.sock
+.dockerignore
+
+#  OS
+.DS_Store
+Thumbs.db
+
+#  Others
+node_modules/
+*.cache
