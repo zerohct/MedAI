@@ -3,3 +3,7 @@ requests
 beautifulsoup4
 scrapy
 pyyaml
+biopython
+tqdm
+scrapy
+pymongo

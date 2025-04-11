@@ -25,6 +25,7 @@ ENV/
 *.swp
 
 #  Data files
+data/
 data/raw/
 data/processed/
 data/external/
