@@ -7,3 +7,5 @@ biopython
 tqdm
 scrapy
 pymongo
+sentence-transformers
+scrapy-inline-requests

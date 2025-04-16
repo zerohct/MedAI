@@ -25,7 +25,10 @@ def main():
     run_data_ingestion()
     print("Thu thập dữ liệu hoàn tất.")
 
-    # Bước 2: Sau khi có dữ liệu, có thể gọi module chuẩn hóa, embedding, hoặc huấn luyện mô hình AI
+    # Giai đoạn 2: Xử lý & chuẩn hóa dữ liệu cho huấn luyện AI
+    print("Bắt đầu xử lý dữ liệu...")
+    process_all_files()
+    print("Xử lý dữ liệu hoàn tất. Dữ liệu được lưu trong thư mục 'processed_data'.")
     # Ví dụ: update database, gọi mô hình huấn luyện,...
     print("Tiếp tục quy trình xử lý và huấn luyện AI...")
 
